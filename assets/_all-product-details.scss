@@ -1,0 +1,204 @@
+.all-product-details-container {
+  width: 600px;
+  height: 560px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.all-product-details-container-sub {
+  width: 85%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company-name-text-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .company-name {
+    font-family: $kumbh;
+    color: $orange;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+}
+.product-name-text-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .product-name {
+    font-family: $kumbh;
+    color: $very-vark-blue;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.15rem;
+    line-height: 2.5rem;
+  }
+}
+.product-decription-text-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .product-description {
+    font-size: 1.02rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: $dark-grayish-blue;
+    font-family: $kumbh;
+  }
+}
+.product-price-details-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 1.2rem;
+}
+.current-price-n-discount-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.current-price-container {
+  width: max-content;
+  height: max-content;
+  .current-price {
+    font-family: $kumbh;
+    color: $very-vark-blue;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 0;
+  }
+}
+.discount-container {
+  width: max-content;
+  height: max-content;
+  .discount-card {
+    background-color: $pale-orange;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+    margin-left: 1rem;
+    p {
+      font-family: $kumbh;
+      font-size: 1rem;
+      color: $orange;
+      padding: 2px 4px 2px 4px;
+      font-weight: 700;
+      .money-unit-current-price {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+.product-original-price-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .original-price {
+    font-family: $kumbh;
+    color: $grayish-blue;
+    font-weight: 700;
+    font-size: 0.98rem;
+    line-height: 0;
+    text-decoration: line-through;
+    user-select: none;
+  }
+}
+.product-cart-add-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-counter-container {
+  width: 40%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-to-cart-btn-container {
+  width: 55%;
+  height: 55px;
+  .add-to-cart-btn {
+    width: 100%;
+    height: 100%;
+    background-color: $orange;
+    border: none;
+    border-radius: 10px;
+    font-family: $kumbh;
+    font-weight: 700;
+    color: $white;
+    font-size: 1rem;
+    transition: $transition;
+    user-select: none;
+    cursor: pointer;
+    svg {
+      fill: $white;
+      width: 16px;
+      height: 14.55px;
+      padding-right: 0.8rem;
+    }
+    &:hover {
+      background-color: rgba(255, 125, 26, 0.678);
+    }
+  }
+}
+.product-counter-container-sub {
+  width: 90%;
+  height: 80%;
+  background-color: $pale-orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.counter-change-btn-container {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  svg {
+    fill: $orange;
+  }
+  &:hover {
+    svg {
+      fill: rgba(255, 125, 26, 0.678);
+    }
+  }
+}
+.counter-value-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-value-var {
+  font-family: $kumbh;
+  color: $very-vark-blue;
+  font-weight: 700;
+  font-size: 1rem;
+  user-select: none;
+}

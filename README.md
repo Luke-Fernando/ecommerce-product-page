@@ -17,10 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/e-commerce-product-page-using-sass-and-jquery-FF18Qomvy)
+- Live Site URL: [Add live site URL here](https://ishan-sanjaya.github.io/ecommerce-product-page/)
 
 ### Built with
 
